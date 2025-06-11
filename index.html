@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Programadora Front-End</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="logo">
+    <img src="logocris.png" alt="Logo personal" />
+  </div>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Hola, soy <span class="name">Cristina Gómez Muñoz</span></h1>
+      <p class="subtitle">Programadora Web Front-End</p>
+      <div class="botones-hero">
+        <a href="#proyectos" class="btn">Mis proyectos</a>
+        <a href="cv.html" class="btn btn-secundario">Mi currículum</a>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy una persona apasionada por lo que hago, con una fuerte vocación de liderazgo y un compromiso constante con la excelencia. Me destaco por mi capacidad resolutiva, la gestión eficaz del estrés y una actitud siempre orientada a encontrar soluciones, incluso en los contextos más desafiantes.
+
+        Considero la responsabilidad y el compromiso como pilares fundamentales de mi trabajo. Siempre doy lo mejor de mí en cada proyecto, con la convicción de que cada experiencia es una oportunidad para aprender, crecer y acercarme a la mejor versión de mí misma.
+
+        Me mueven las ganas de seguir creciendo, superarme día a día y aportar valor real en cada equipo o entorno en el que me involucro. Estoy en un camino constante de evolución personal y profesional, y lo recorro con entusiasmo, determinación y mucha pasión.
+      </p>
+    </div>
+  </section>
+
+  <section class="proyectos" id="proyectos">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <img src="https://via.placeholder.com/300x200" alt="Proyecto 1" />
+          <h3>Busca tu anime.</h3>
+          <p>Este proyecto simula una plataforma web para buscar animes, ver resultados que coincidan con el término introducido y obtener información relevante como el título, imagen, puntuación y recomendación de los usuarios.
+
+Los usuarios pueden añadir animes a una lista de favoritos y gestionarla dinámicamente.
+
+La interfaz está desarrollada con HTML y CSS, mientras que la lógica de búsqueda, filtrado y manipulación de favoritos está implementada en JavaScript puro, sin frameworks.
+
+Este proyecto demuestra mis habilidades en diseño web, manipulación del DOM, lógica de programación y experiencia de usuario.</p>
+          <a href="https://beta.adalab.es/modulo-2-evaluacion-final-cristinagm92/" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+          <img src="https://via.placeholder.com/300x200" alt="Proyecto 2" />
+          <h3>¡Hazte con todos!!</h3>
+          <p>Desarrollé un juego web interactivo inspirado en la mecánica de piedra-papel-tijera usando JavaScript, HTML y CSS puros. El usuario puede elegir su Pokémon favorito y enfrentarlo contra un rival controlado por la computadora. Implementé lógica de juego, manejo dinámico del DOM y diseño responsivo para ofrecer una experiencia visual atractiva, con animaciones y retroalimentación visual que incluye trofeos, mensajes finales y efectos de confeti. Este proyecto demuestra habilidades en manipulación de eventos, estados y estilos CSS modernos</p>
+          <a href=" https://cristinagm92.github.io/Pokemon/" target="_blank">Ver proyecto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <ul class="skills-list logos-como-fondo">
+        <li class="html">HTML5</li>
+        <li class="css">CSS3 / Sass</li>
+        <li class="js">JavaScript (ES6+)</li>
+        <li class="react">React.js</li>
+        <li class="git">Git & GitHub</li>
+        <li class="responsive">Responsive Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <h2>Contáctame</h2>
+      <div class="contacto-icons">
+        <div class="icono">
+          <img id="email-icon" src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="Correo electrónico" />
+          <p class="dato" id="email-dato">Haz clic para ver el email</p>
+        </div>
+        <div class="icono">
+          <img id="telefono-icon" src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Teléfono" />
+          <p class="dato" id="telefono-dato">Haz clic para ver el número</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
