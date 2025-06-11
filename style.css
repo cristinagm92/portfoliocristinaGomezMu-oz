@@ -85,8 +85,8 @@ body {
 }
 
 .btn-secundario {
-  background-color: #fff
-    color: #7f00ff;
+  background-color: #fff;
+  color: #7f00ff;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
@@ -283,6 +283,3 @@ section h2 {
     padding-top: 60px;
   }
 }
-
-  
-  
