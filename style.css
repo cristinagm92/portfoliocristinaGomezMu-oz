@@ -85,8 +85,12 @@ body {
 }
 
 .btn-secundario {
-  background-color: transparent;
-  color: #fff;
+  background-color: #fff
+    color: #7f00ff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
   border: 2px solid #fff;
 }
 
