@@ -229,6 +229,10 @@ section h2 {
 .skills-list li.responsive {
   background-image: url('https://img.icons8.com/ios-filled/50/monitor--v1.png');
 }
+.skills-list li.mysql {
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg');
+}
+
 
 /* CONTACTO */
 .contacto-icons {
