@@ -17,16 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
   // Iconos de contacto
   const emailIcon = document.getElementById("email-icon");
   const telefonoIcon = document.getElementById("telefono-icon");
+if (emailIcon) {
+  emailIcon.addEventListener("click", () => {
+    document.getElementById("email-dato").innerHTML =
+      '<a href="mailto:christty_92@hotmail.com">christty_92@hotmail.com</a>';
+  });
+}
 
-  if (emailIcon) {
-    emailIcon.addEventListener("click", () => {
-      document.getElementById("email-dato").textContent = "christty_92@hotmail.com";
-    });
-  }
 
-  if (telefonoIcon) {
-    telefonoIcon.addEventListener("click", () => {
-      document.getElementById("telefono-dato").textContent = "662357450";
-    });
-  }
+if (telefonoIcon) {
+  telefonoIcon.addEventListener("click", () => {
+    document.getElementById("telefono-dato").innerHTML = 
+      '<a href="tel:662357450">662357450</a>';
+  });
+}
+
 });
